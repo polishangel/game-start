@@ -7,16 +7,16 @@ import me.sargunvohra.mcmods.autoconfig1u.shadowed.blue.endless.jankson.Comment;
 @Config(name = "gamestart")
 public class GameStartConfig implements ConfigData {
     @Comment(value = "The message to send a player when they first join the server.")
-    public String[] firstJoinPersonalMessage = new String[] { "" };
+    public String[] firstJoinPersonalMessage = new String[] { "Elo mordo! Bocianowy server zaprasza do zabawy!" };
 
     @Comment(value = "The message to send to all players when a player first joins the server.")
-    public String[] firstJoinBroadcastMessage = new String[] { "" };
+    public String[] firstJoinBroadcastMessage = new String[] { "UUUU dołaczyło do nas świeże mięsko" };
 
     @Comment(value = "The message to send a player when they re-join the server (not a new player).")
-    public String[] returningJoinPersonalMessage =new String[] { "" };
+    public String[] returningJoinPersonalMessage =new String[] { "OOOO dawno Cię tu nie było" };
 
     @Comment(value = "The message to send to all players when a player re-joins the server (not a new player).")
-    public String[] returningJoinBroadcastMessage = new String[] { "" };
+    public String[] returningJoinBroadcastMessage = new String[] { "ehhh znowu ten debil" };
 
     @Comment(value = "Whether the first join broadcast should also be sent to the player who joined.")
     public boolean sendFirstJoinBroadcastToTargetPlayer = false;
